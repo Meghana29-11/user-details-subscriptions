@@ -1,0 +1,126 @@
+.subscription-list {
+  padding: 1rem;
+  font-family: Hanken Grotesk;
+}
+
+.subscription-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  border-color: #E2E8F0;
+}
+
+.subscription-table th,
+.subscription-table td {
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.subscription-table thead {
+  background-color: white;
+}
+
+.subscription-table thead th {
+  font-weight: 500;
+  color: #64748B;
+  font-family: Hanken Grotesk;
+}
+
+.subscription-table tbody tr td:first-child {
+    size: 14px;
+    color: #334155;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.subscription-list h2 {
+  font-family: Hanken Grotesk;
+}
+/* STATUS BADGES - bg = status color, text = white */
+.status-badge {
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: inline-block;
+  color: white;
+  gap: 4px;
+}
+
+.subscription-table th {
+    border-bottom: none;
+    border-top: none;
+
+}
+.status-badge.active {
+  background-color: #6CA621; /* Green */
+}
+
+.status-badge.suspended {
+  background-color: #f59e0b; /* Orange */
+}
+
+.status-badge.expired {
+  background-color: #ef4444; /* Red */
+}
+
+/* SYNC BADGES - bg = sync color, text = white, icon circle white */
+.sync-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.875rem;
+    color: white;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 6px;
+    text-transform: capitalize;
+}
+
+
+.sync-badge .sync-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sync-badge.green {
+  background-color: #6CA621;
+}
+
+.sync-badge.green .sync-icon {
+  color: #6CA621;
+}
+
+.sync-badge.orange {
+  background-color: #f59e0b;
+}
+
+.sync-badge.orange .sync-icon {
+  color: #f59e0b;
+}
+
+.sync-badge.red {
+  background-color: #ef4444;
+}
+
+.sync-badge.red .sync-icon {
+  color: #ef4444;
+}
+
+.source {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
