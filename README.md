@@ -2,18 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
@@ -45,26 +33,67 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+# 📦 Subscriptions UI
+A simple React.js app that recreates a Figma design for displaying subscription data with status and sync icons. This project demonstrates clean component structure, conditional rendering, and basic unit testing.
+---
+## 🧰 Tech Stack
+- **React.js** (via Create React App)
+- **Vanilla CSS** (no frameworks like Tailwind)
+- **Jest** & **React Testing Library** (for unit testing)
+---
+## 📁 Project Structure
+subscriptions-ui/
+├── public/
+├── src/
+│   ├── components/
+│   │   └── SubscriptionCard.js
+│   │   └── SubscriptionCard.test.js
+│   │   └── SubscriptionList.js
+│   │   └── SubscriptionList.test.js
+│   ├── styles/
+│   │   └── SubscriptionCard.css
+│   │   └── SubscriptionList.css
+│   ├── App.js
+│   ├── index.js
+│   ├── App.css
+│   ├── index.css
+│   ├── jest.config
+│   ├── reportWebVitals.js
+├── README.md
+├── package-lock.json
+└── package.json
+---
+## 🚀 Getting Started
+### Clone the repo
+```bash
+git clone https://github.com/Meghana29-11/user-details-subscriptions.git
+cd user-details-subscriptions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Install dependencies
 
-### Analyzing the Bundle Size
+### `npm install`
+In the project directory, you can run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### `npm start`
 
-### Making a Progressive Web App
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+The app will open at http://localhost:3000
+⸻
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+✅ Features
+• Displays a list of subscriptions with status and sync indicators.
+• Icons and color styles for:
+• Status: Active, Suspended, Expired
+• Sync: In sync, Out of sync, Not found
+• Clean layout and accessible semantic HTML.
+• Styled with plain CSS.
+⸻
 
-### Advanced Configuration
+🧪 Unit Testing
+Tests are written using Jest and React Testing Library.
+To run tests:
+### `npm test`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
